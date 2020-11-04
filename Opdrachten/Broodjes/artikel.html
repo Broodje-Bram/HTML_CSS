@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Artikel</title>
-    <link rel="stylesheet" href="Css/artikelcss.css">
+    <link rel="stylesheet" href="Css/ArtikelCss.css">
 </head>
 <body>
-  <h1>Broodje</h1>
+<header>
+    <nav>
+        <div class="Broodje">
+            <h1>Broodjes</h1>
+        </div>
+        <ul class="nav__links">
+            <li><a href="index.html">Home Page</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h3>
+        Sandwich
+    </h3>
+    <a>
+        Sandwich, in zijn basisvorm, plakjes vlees, kaas of ander voedsel dat tussen twee sneetjes brood wordt geplaatst. Hoewel deze manier van consumeren zo oud moet zijn als vlees en brood, werd de naam pas in de 18e eeuw aangenomen voor John Montagu, 4e graaf van Sandwich. Volgens een vaak aangehaald verslag uit een hedendaags Frans reisboek, had Sandwich hem een ​​keer vlees en brood aan de speeltafel gebracht, zodat hij kon blijven spelen terwijl hij at; het lijkt echter waarschijnlijker dat hij deze sandwiches at terwijl hij aan zijn bureau werkte of dat de wereld ze opmerkte toen hij erom vroeg in de Londense samenleving. Zijn titel gaf de bereiding cachet, en al snel was het in de mode om sandwiches op het Europese continent te serveren, en het woord werd in de Franse taal opgenomen. Sinds die tijd is de sandwich door zijn eenvoud van bereiding, draagbaarheid en eindeloze variëteit in vrijwel elke keuken van het Westen opgenomen.
+
+
+    </a>
+</main>
+<div id="MyClockDisplay" class="clock"></div>
+<script>
+    function showtime(){
+        var date = new Date();
+        var h = date.getHours(); // 0 - 23 uur
+        var m = date.getMinutes(); // 0 -59 min
+        var s = date.getSeconds(); //0 -59
+
+        if(h == 0){
+            h = 12;
+        }
+
+
+        if(h < 10){
+            h = "0" + h;
+        }
+
+        if(m < 10){
+            m = "0" + m;
+        }
+
+        if(s < 10){
+            s = "0" + s;
+        }
+
+        var time = h + ":" + m + ":" + s;
+        document.getElementById("MyClockDisplay").innertext = time;
+        document.getElementById("MyClockDisplay").textContent = time;
+
+        setTimeout(showtime, 1000);
+    }
+
+    showtime();
+
+</script>
 </body>
 </html>
