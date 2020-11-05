@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f31d1bc3-6ac9-4736-9152-68a0f413a6d9" name="Default Changelist" comment="Html Opdrachten">
-      <change afterPath="$PROJECT_DIR$/Opdrachten/Broodjes/Img/ArtikelBackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opdrachten/Wilkens website/Css/indexcss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opdrachten/Wilkens website/Img/elektriciteit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opdrachten/Wilkens website/Img/wilkens_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opdrachten/Wilkens website/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Opdrachten/Broodjes/Css/Indexcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/Opdrachten/Broodjes/Css/Indexcss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Opdrachten/Broodjes/Css/artikelcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/Opdrachten/Broodjes/Css/ArtikelCss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Opdrachten/Broodjes/artikel.html" beforeDir="false" afterPath="$PROJECT_DIR$/Opdrachten/Broodjes/artikel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Opdrachten/Broodjes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Opdrachten/Broodjes/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bramg\PhpstormProjects\MijneersteProject\Opdrachten\Wilkens website\Img" />
       <recent name="C:\Users\Bramg\PhpstormProjects\MijneersteProject\Opdrachten\Broodjes\Img" />
       <recent name="C:\Users\Bramg\PhpstormProjects\MijneersteProject\Opdrachten\Broodjes\Css" />
       <recent name="C:\Users\Bramg\PhpstormProjects\MijneersteProject\Opdrachten" />
@@ -96,7 +96,8 @@
       <workItem from="1604414537340" duration="484000" />
       <workItem from="1604417726295" duration="2277000" />
       <workItem from="1604507285172" duration="983000" />
-      <workItem from="1604508305606" duration="6605000" />
+      <workItem from="1604508305606" duration="6852000" />
+      <workItem from="1604576139986" duration="9056000" />
     </task>
     <task id="LOCAL-00001" summary="HTML Hello World">
       <created>1604399573861</created>
@@ -140,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604409022760</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Html Opdrachten">
+      <created>1604516418777</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604516418777</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Html Opdrachten">
+      <created>1604583674977</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604583674977</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,10 +198,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="542" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604515037729" />
-    <state x="722" y="60" key="Vcs.Push.Dialog.v2" timestamp="1604409042532">
+    <state x="722" y="60" key="Vcs.Push.Dialog.v2" timestamp="1604583722300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="60" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604409042532" />
+    <state x="722" y="60" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604583722300" />
     <state x="208" y="607" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604400390945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
