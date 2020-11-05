@@ -1,0 +1,18 @@
+td {
+    text-align: center;
+    width: 10px;
+}
+
+.tabel {
+    width: 100px;
+}
+
+.total {
+    text-align: end;
+    width: 100px;
+}
+
+.begin {
+    text-align: left;
+}
+
