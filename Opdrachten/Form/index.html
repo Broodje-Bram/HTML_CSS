@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+    <link rel="stylesheet" href="Css/indexcss.css">
+</head>
+<body>
+<form action="https://www.savatarian.com/html5/form.php" method="post">
+    <ul>
+        <li>
+            <h2>Voorbeeld Formulier</h2>
+        </li>
+        <li>
+            <label for="voornaam">Voornaam</label>
+            <input type="text" name="voornaam" />
+
+            <label for="lekker_eten" class="Eten">Lekker eten:</label>
+            <input type="checkbox" name="lekker_eten" value="sperciebonen" class="checkbox">
+            <span class="spercieboon">Sperciebonen</span>
+
+        </li>
+        <li>
+            <label for="tussenvoegsel">Tussenvoegsel</label>
+            <input type="text" name="Tussenvoegsel" />
+
+            <input type="checkbox" name="lekker_eten" value="aardappelen" class="checkbox">
+            <span class="aardappel">Aardappelen</span>
+        </li>
+        <li>
+            <label for="achternaam">Achternaam</label>
+            <input type="text" name="achternaam" />
+
+            <input type="checkbox" name="lekker_eten" value="hamburger" class="checkbox">
+            <span class="burger">Hamburger</span>
+        </li>
+        <li>
+            <label for="geslacht">Geslacht:</label>
+
+            <input class="form-groupbtn" type="radio" name="geslacht" value="Man"/>
+            <label for="man" class="man">Man</label>
+
+            <input class="vrouwradio" type="radio" name="geslacht" value="Vrouw" />
+            <label for="vrouw" class="vrouw">Vrouw</label>
+        </li>
+        <li>
+            <label for="kleur-ogen">Oog Kleur</label>
+            <select name="kleur-ogen" class="ogen">
+                <option>Blauw</option>
+                <option>Groen</option>
+                <option>Bruin</option>
+            </select>
+        </li>
+        <li>
+            <label for="omschrijving">Omschrijving</label><br>
+            <textarea name="omschrijving"></textarea>
+        </li>
+        <li>
+
+        </li>
+        <li>
+            <button class="annuleer , button">Annuleer</button>
+            <button class="button">Submit</button>
+        </li>
+    </ul>
+</form>
+</body>
+</html>

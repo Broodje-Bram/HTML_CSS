@@ -1,0 +1,78 @@
+form ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+form ul li {
+    padding: 10px;
+}
+
+form ul li input {
+    position: absolute;
+    left: 150px;
+}
+
+.vrouwradio {
+    margin-left: 6rem;
+}
+
+.vrouw {
+    margin-left: 4rem;
+}
+
+.man {
+    margin-left: 5.5rem;
+}
+
+.ogen {
+    margin-left: 3.8rem;
+}
+
+
+textarea {
+    margin-left: 8rem;
+    resize: none;
+    height: 7rem;
+    width: 20rem;
+}
+
+
+.annuleer {
+    margin-left: 30rem;
+}
+
+.button {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    height: 40px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.button:hover{
+    background-color: lightskyblue;
+}
+
+.aardappel {
+    margin-left: 30rem;
+}
+
+.burger {
+    margin-left: 31rem;
+}
+
+.spercieboon {
+    margin-left: 3.5rem;
+}
+
+.Eten {
+    margin-left: 23rem;
+}
+
+.checkbox {
+    margin-left: 26rem;
+}
