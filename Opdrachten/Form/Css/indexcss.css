@@ -1,78 +1,100 @@
-form ul {
-    list-style-type: none;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+* {
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: blueviolet;
+    text-shadow: 0 0 0.5px black;
 }
 
-form ul li {
-    padding: 10px;
+.wrapper {
+    width: 1120px;
+    margin: auto;
 }
 
-form ul li input {
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.form-group {
+    width: 375px;
+    padding:20px;
+    vertical-align: top;
+}
+
+.form-select {
+    width: 375px;
+    padding:20px;
+}
+
+.form-date {
+    width: 375px;
+    padding:20px;
+}
+
+.form-check {
+    width: 375px;
+    padding:20px;
+    float: right;
+    top: 85px;
+    left: 45%;
     position: absolute;
-    left: 150px;
-}
-
-.vrouwradio {
-    margin-left: 6rem;
-}
-
-.vrouw {
-    margin-left: 4rem;
-}
-
-.man {
-    margin-left: 5.5rem;
-}
-
-.ogen {
-    margin-left: 3.8rem;
-}
-
-
-textarea {
-    margin-left: 8rem;
-    resize: none;
-    height: 7rem;
-    width: 20rem;
-}
-
-
-.annuleer {
-    margin-left: 30rem;
-}
-
-.button {
-    background-color: lightblue;
-    border: none;
-    color: white;
-    height: 40px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-}
-
-.button:hover{
-    background-color: lightskyblue;
-}
-
-.aardappel {
-    margin-left: 30rem;
-}
-
-.burger {
-    margin-left: 31rem;
-}
-
-.spercieboon {
-    margin-left: 3.5rem;
-}
-
-.Eten {
-    margin-left: 23rem;
+    vertical-align: top;
 }
 
 .checkbox {
-    margin-left: 26rem;
+    margin-right: 1rem;
+}
+
+.form-groupbtn {
+    margin-left: 4rem;
+}
+
+.input {
+    float:right;
+    width: 200px;
+    border: 2px solid #8caee6;
+}
+
+.vrouwradio {
+    margin-left: 4rem;
+}
+
+textarea {
+    resize: none;
+    width: 400px;
+    border: 2px solid #8caee6;
+    height: 200px;
+}
+
+.form-omschrijving {
+    margin-left: 2px;
+}
+
+.buttons {
+    margin-top: 1rem;
+    margin-left: 50%;
+    color: red;
+}
+
+.cancel-btn, .ok-btn {
+    padding: 15px;
+    border: 2px solid #5376b0;
+    margin-right: 1rem;
+    background: linear-gradient(0deg, rgba(168,214,255,1) 0%, rgba(148,202,255,1) 50%, rgba(235,245,255,1) 100%);
+}
+
+.cancel-btn:hover, .ok-btn:hover {
+    background: linear-gradient(0deg, rgba(190,224,255,1) 0%, rgba(184,220,255,1) 50%, rgba(255,255,255,1) 100%);
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.aardappel, .burger {
+    margin-left: 99px;
+    margin-top: 1rem;
 }

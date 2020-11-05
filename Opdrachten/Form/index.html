@@ -6,63 +6,59 @@
     <link rel="stylesheet" href="Css/indexcss.css">
 </head>
 <body>
-<form action="https://www.savatarian.com/html5/form.php" method="post">
-    <ul>
-        <li>
-            <h2>Voorbeeld Formulier</h2>
-        </li>
-        <li>
-            <label for="voornaam">Voornaam</label>
-            <input type="text" name="voornaam" />
-
-            <label for="lekker_eten" class="Eten">Lekker eten:</label>
-            <input type="checkbox" name="lekker_eten" value="sperciebonen" class="checkbox">
-            <span class="spercieboon">Sperciebonen</span>
-
-        </li>
-        <li>
-            <label for="tussenvoegsel">Tussenvoegsel</label>
-            <input type="text" name="Tussenvoegsel" />
-
-            <input type="checkbox" name="lekker_eten" value="aardappelen" class="checkbox">
-            <span class="aardappel">Aardappelen</span>
-        </li>
-        <li>
-            <label for="achternaam">Achternaam</label>
-            <input type="text" name="achternaam" />
-
-            <input type="checkbox" name="lekker_eten" value="hamburger" class="checkbox">
-            <span class="burger">Hamburger</span>
-        </li>
-        <li>
+<div class="wrapper">
+    <form action="http://www.savatarian.com/html5/form.php" method="get">
+        <div class="form-group">
+            <h2>Form</h2>
+        </div>
+        <div class="form-group">
+            <label for="voornaam">Voornaam:</label>
+            <input class="input" type="text" name="voornaam" required/>
+        </div>
+        <div class="form-group">
+            <label for="tussenvoegsel">Tussenvoegsel:</label>
+            <input class="input" type="text" name="tussenvoegsel" />
+        </div>
+        <div class="form-group">
+            <label for="achternaam">Achternaam:</label>
+            <input class="input" type="text" name="achternaam" required/>
+        </div>
+        <div class="form-group">
             <label for="geslacht">Geslacht:</label>
-
-            <input class="form-groupbtn" type="radio" name="geslacht" value="Man"/>
-            <label for="man" class="man">Man</label>
-
+            <input class="form-groupbtn" type="radio" name="geslacht" value="Man" required/>
+            <label for="man">Man</label>
             <input class="vrouwradio" type="radio" name="geslacht" value="Vrouw" />
-            <label for="vrouw" class="vrouw">Vrouw</label>
-        </li>
-        <li>
-            <label for="kleur-ogen">Oog Kleur</label>
-            <select name="kleur-ogen" class="ogen">
-                <option>Blauw</option>
-                <option>Groen</option>
-                <option>Bruin</option>
+            <label for="vrouw">Vrouw</label>
+        </div>
+        <div class="form-select">
+            <label for="eye-color">Kleur ogen:</label>
+            <select class="input" name="oogkleuren">
+                <option value="Groen">Groen</option>
+                <option value="Blauw">Blauw</option>
+                <option value="Bruin">Bruin</option>
+                <option value="Grijs">Grijs</option>
+                <option value="Overige">Overige</option>
             </select>
-        </li>
-        <li>
-            <label for="omschrijving">Omschrijving</label><br>
-            <textarea name="omschrijving"></textarea>
-        </li>
-        <li>
-
-        </li>
-        <li>
-            <button class="annuleer , button">Annuleer</button>
-            <button class="button">Submit</button>
-        </li>
-    </ul>
-</form>
+        </div>
+        <div class="form-date">
+            <label for="geboortedatum">Geboortedatum:</label>
+            <input class="input" type="date" name="dateofbirth" required/>
+        </div>
+        <div class="form-textarea">
+            <label class="form-group" for="omschrijving">Omschrijving:</label>
+            <textarea></textarea>
+        </div>
+        <div class="form-check">
+            <label for="lekker_eten" name="lekker_eten">Lekker eten:</label>
+            <input class="checkbox" type="checkbox" name="lekker_eten" value="sperciebonen">Sperciebonen<br>
+            <input class="checkbox aardappel" type="checkbox" name="lekker_eten" value="aardappelen">Aardappelen<br>
+            <input class="checkbox burger" type="checkbox" name="lekker_eten" value="hamburger">Hamburger
+        </div>
+        <div class="buttons">
+            <button class="cancel-btn">Annuleren</button>
+            <button class="ok-btn" >Submit</button>
+        </div>
+    </form>
+</div><!--Wrapper-->
 </body>
 </html>
